@@ -20,7 +20,7 @@ la commande cd, exemple :
 - cd Downloads/ (chemin indirect)
 La variable 'static char last_pwd[1024];' sera utile pour garder
 en mémoire le dernier répertoire de travail.
-Il ne faudra pas oublier de mettre à jour dans votre env la variable "PWD=".
+Il ne faudra pas oublier de mettre à jour dans votre env la variable "PWD=" ainsi que "OLDPWD=".
 */
 
 void my_cd(const char *path)
