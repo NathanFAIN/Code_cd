@@ -5,7 +5,7 @@
 ## my make file
 ##
 
-NAME	=	binary
+NAME	=	my_cd
 
 SRCS	= 	./src/main.c \
 
