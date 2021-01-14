@@ -13,6 +13,6 @@
 #ifndef MY_CD_H_
 #define MY_CD_H_
 
-void my_cd(const char *path);
+void my_cd(const char *path, char **env);
 
 #endif /* !MY_CD_H_ */
